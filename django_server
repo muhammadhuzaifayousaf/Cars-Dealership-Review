@@ -1,7 +1,17 @@
-Django server validation
-Directory: server
+Django server evidence
 
-$ python3 manage.py check
+Project directory:
+server
+
+Server command:
+python3 manage.py runserver 0.0.0.0:8000
+
+The Django development server is running on port 8000 and is accessible through the Theia port proxy.
+
+Validation:
+python3 manage.py check
 System check identified no issues (0 silenced).
 
-$ python3 manage.py migrate --check
+Verified API:
+GET /fetchDealer/1
+HTTP 200
