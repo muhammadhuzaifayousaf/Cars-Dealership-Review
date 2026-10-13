@@ -1,4 +1,11 @@
-Command: POST /djangoapp/login
+Endpoint: POST /djangoapp/login
 
-Output:
-{"userName": "huzaifa", "status": "Authenticated"}
+Request:
+curl -X POST http://127.0.0.1:8000/djangoapp/login \
+  -H "Content-Type: application/json" \
+  -d '{"userName":"root","password":"<REDACTED>"}'
+
+Verified response (HTTP 200):
+{"userName": "root", "status": "Authenticated"}
+
+Note: Password redacted. The request was tested using a private password prompt.

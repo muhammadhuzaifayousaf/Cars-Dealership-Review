@@ -1,9 +1,6 @@
+Endpoint: GET /analyze/Fantastic%20services
 Command:
-curl -sS -X POST "https://cars-dealership-capstone.2fvlkql47akz.us-south.codeengine.appdomain.cloud/djangoapp/analyze_review" -H "Content-Type: application/json" -d '{"review":"Fantastic services"}' | python3 -m json.tool
+curl -sS "http://127.0.0.1:8000/analyze/Fantastic%20services"
 
-Output:
-{
-    "status": 200,
-    "review": "Fantastic services",
-    "sentiment": "positive"
-}
+Verified output:
+{"sentiment": "positive"}

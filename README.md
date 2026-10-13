@@ -1,4 +1,4 @@
-# Cars Dealership Review Platform
+# fullstack_developer_capstone
 
 A full-stack web application developed as part of the **IBM Full Stack Software Developer Capstone Project**. The platform allows customers to explore car dealerships across the United States, view dealership details and customer reviews, and submit their own reviews after signing in.
 
@@ -36,7 +36,7 @@ The goal of this project is to provide customers with a central platform for acc
 ## Live Application
 
 **Deployment URL:**  
-https://cars-dealership-capstone.2fvlkql47akz.us-south.codeengine.appdomain.cloud/
+Deployment URL will be added after verification.
 
 ## Main API Endpoints
 
@@ -67,8 +67,8 @@ Replace path parameters such as `<state>` and `<dealer_id>` with the required va
 ### Backend
 
 ```bash
-git clone https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone.git
-cd ibm-fullstack-developer-capstone/server
+git clone https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone.git
+cd xrwvm-fullstack_developer_capstone/server
 
 pip install -r requirements.txt
 python manage.py migrate
@@ -80,7 +80,7 @@ python manage.py runserver
 Open another terminal:
 
 ```
-cd ibm-fullstack-developer-capstone/server/frontend
+cd xrwvm-fullstack_developer_capstone/server/frontend
 
 npm install
 npm start
@@ -92,9 +92,9 @@ The frontend may require the Django backend to be running for API requests to wo
 
 The application is containerized with Docker and deployed to IBM Cloud Code Engine. A GitHub Actions workflow is defined in `.github/workflows/ci.yml` to validate the Django configuration and build the React frontend.
 
-GitHub repository: [https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone](https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone)
+GitHub repository: [https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone](https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone)
 
-GitHub Actions: [https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone/actions](https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone/actions)
+GitHub Actions: [https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone/actions](https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone/actions)
 
 ## Learning Outcomes
 

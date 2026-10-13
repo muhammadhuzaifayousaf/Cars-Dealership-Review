@@ -1,9 +1,5 @@
+Endpoint: GET /fetchReviews/dealer/15
 Command:
-curl -sS "https://cars-dealership-capstone.2fvlkql47akz.us-south.codeengine.appdomain.cloud/djangoapp/reviews/dealer/1" | python3 -m json.tool
+curl -sS http://127.0.0.1:8000/fetchReviews/dealer/15
 
-Output:
-{
-    "status": 200,
-    "reviews": []
-}
-
+Verified result: HTTP 200; returned 3 review records with reviewer, dealership, review text, purchase status/date, and car details.
