@@ -1,7 +1,7 @@
-GitHub Actions CI/CD Evidence
+GitHub Actions CI Evidence
 
 Repository:
-https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone
+https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone
 
 Workflow:
 Capstone CI
@@ -9,8 +9,15 @@ Capstone CI
 Workflow file:
 .github/workflows/ci.yml
 
-Status:
-Success (green)
+Commit:
+3be5cf6
 
-Successful workflow run URL:
-https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone/actions/runs/38438338266
+Run:
+https://github.com/muhammadhuzaifayousaf/xrwvm-fullstack_developer_capstone/actions/runs/38458104657
+
+Status:
+Success
+
+Successful jobs:
+1. Lint Python Files
+2. Lint JavaScript Files
