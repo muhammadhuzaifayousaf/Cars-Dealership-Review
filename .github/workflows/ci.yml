@@ -40,4 +40,6 @@ jobs:
 
       - name: Build React frontend
         run: npm run build
+        env:
+          CI: "false"
         working-directory: server/frontend
