@@ -1,0 +1,4 @@
+Command: POST /djangoapp/login
+
+Output:
+{"userName": "huzaifa", "status": "Authenticated"}

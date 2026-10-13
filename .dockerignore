@@ -1,0 +1,15 @@
+.git
+**/__pycache__
+**/*.pyc
+**/node_modules
+**/.env
+server/.venv
+server/venv
+server/db.sqlite3
+server/db.sqlite3-journal
+server/collected_static
+server/*.before_deployment
+server/djangoproj/*.before_deployment
+server/requirements.txt.before_deployment
+server/patch_settings.py
+server/djangoapp/restapis.py.backup

@@ -1,0 +1,43 @@
+name: Capstone CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+        working-directory: server
+
+      - name: Check Django configuration
+        run: python manage.py check
+        working-directory: server
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: npm
+          cache-dependency-path: server/frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm install
+        working-directory: server/frontend
+
+      - name: Build React frontend
+        run: npm run build
+        working-directory: server/frontend

@@ -1,0 +1,9 @@
+Command:
+curl -sS "https://cars-dealership-capstone.2fvlkql47akz.us-south.codeengine.appdomain.cloud/djangoapp/reviews/dealer/1" | python3 -m json.tool
+
+Output:
+{
+    "status": 200,
+    "reviews": []
+}
+

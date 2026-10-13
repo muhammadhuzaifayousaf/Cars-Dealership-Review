@@ -1,0 +1,4 @@
+Command: GET /djangoapp/logout
+
+Output:
+{"status": "Logged out"}
