@@ -1,0 +1,16 @@
+GitHub Actions CI/CD Evidence
+
+Repository:
+https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone
+
+Workflow:
+Capstone CI
+
+Workflow file:
+.github/workflows/ci.yml
+
+Status:
+Success (green)
+
+Successful workflow run URL:
+https://github.com/muhammadhuzaifayousaf/ibm-fullstack-developer-capstone/actions/runs/38438338266
