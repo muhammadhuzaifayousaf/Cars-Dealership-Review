@@ -1,4 +1,4 @@
-# fullstack_developer_capstone
+# Cars Dealership Review Platform
 
 A full-stack web application developed as part of the **IBM Full Stack Software Developer Capstone Project**. The platform allows customers to explore car dealerships across the United States, view dealership details and customer reviews, and submit their own reviews after signing in.
 
