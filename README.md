@@ -36,7 +36,9 @@ The goal of this project is to provide customers with a central platform for acc
 ## Live Application
 
 **Deployment URL:**  
-Deployment URL will be added after verification.
+[Open the application in Theia](https://mohammadhuz1-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/)
+
+> Note: This is a temporary lab URL and may expire when the lab session ends.
 
 ## Main API Endpoints
 
